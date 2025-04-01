@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitHub DM</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h2>GitHub DM System</h2>
+  
+  <button id="login">Login with GitHub</button>
+  
+  <div id="messageForm" style="display:none;">
+    <div>
+      <label for="username">Recipient Username:</label>
+      <input type="text" id="username" placeholder="Recipient's GitHub username" />
+    </div>
+    
+    <div>
+      <label for="repository">Repository Name:</label>
+      <input type="text" id="repository" placeholder="GitHub repository" />
+    </div>
+    
+    <div>
+      <label for="message">Message:</label>
+      <textarea id="message" placeholder="Your message"></textarea>
+    </div>
+    
+    <button id="sendMessage">Send Message</button>
+  </div>
+  
+  <script src="popup.js"></script>
+</body>
+</html>
